@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from './page/Index.vue'
-import Geren from './page/Geren.vue'
-import Detail from './page/Detail.vue'
+import Index from './index/index.vue'
+import Geren from './index/geren.vue'
+import Detail from './index/detail.vue'
 
 Vue.use(Router)
 
