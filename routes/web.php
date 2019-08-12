@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('{path}', function () {
-    return view('hello');
+    return 'hello';
 })->where('path', '(.*)');
