@@ -29698,7 +29698,7 @@ var render = function() {
         "li",
         [
           _c("router-link", { attrs: { to: { path: "/classify" } } }, [
-            _vm._v("分类")
+            _vm._v("分类123")
           ])
         ],
         1
