@@ -53,20 +53,14 @@
 
 <template>
     <div class="flex-center position-ref full-height">
-        <div class="top-right links">
-            <a href="/hello">你好</a>
-            <a href="/login">登录</a>
-            <a href="/register">注册</a>
-        </div>
-
         <div class="content">
             <div class="title m-b-md">
-                Laravel
+                Hello World
             </div>
         </div>
     </div>
 </template>
 
 <script>
-    export default {}
+    export default { }
 </script>
