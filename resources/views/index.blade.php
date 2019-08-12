@@ -7,10 +7,11 @@
     <title>Laravel</title>
 
     <link href="{{ asset('css/app.css')  }}" rel="stylesheet">
+    <link href="{{ asset('css/rest.css')  }}" rel="stylesheet">
 </head>
 <body>
 <div id="app">
-    <welcome-component></welcome-component>
+    <router-view />
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
 </body>
