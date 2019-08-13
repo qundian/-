@@ -1,7 +1,7 @@
 <template>
 	<div class="foot">
 		<ul>
-			<li><router-link :to="{path:'/classify'}">分类123</router-link></li>
+			<li><router-link :to="{path:'/classify'}">分类</router-link></li>
 			<li><router-link :to="{path:'/course_class'}">VIP专区</router-link></li>
 			<li><router-link :to="{path: '/'}">首页</router-link></li>
 			<li><router-link :to="{path:'/personal/record'}">学习数据</router-link></li>
