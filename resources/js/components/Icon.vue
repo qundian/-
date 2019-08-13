@@ -2,7 +2,7 @@
   <div>
   	<ul id="c-index-nav">
   		<li v-for="item in items">
-  			<router-link :to="item.href">
+  			<router-link :to="{path:item.href}">
   				<img :src="item.src">
   				<p>{{item.text}}</p>
   			</router-link>

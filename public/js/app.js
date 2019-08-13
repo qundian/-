@@ -104,6 +104,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['imglist'],
   data: function data() {
@@ -539,13 +541,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -558,123 +553,137 @@ __webpack_require__.r(__webpack_exports__);
   // 数据
   data: function data() {
     return {
-      imglist: ['https://m.hrpindao.com/Public/upload/banner/20190708134205.jpg', 'https://m.hrpindao.com/Public/upload/banner/20190724003920.jpg', 'https://m.hrpindao.com/Public/upload/banner/20190326203431.jpg', 'https://m.hrpindao.com/Public/upload/banner/20190716153055.jpg'],
+      imglist: [{
+        src: 'https://m.hrpindao.com/Public/upload/banner/20190708134205.jpg',
+        href: ''
+      }, {
+        src: 'https://m.hrpindao.com/Public/upload/banner/20190724003920.jpg',
+        href: ''
+      }, {
+        src: 'https://m.hrpindao.com/Public/upload/banner/20190326203431.jpg',
+        href: ''
+      }, {
+        src: 'https://m.hrpindao.com/Public/upload/banner/20190716153055.jpg',
+        href: ''
+      }],
       icons: [{
         src: 'https://m.hrpindao.com/Application/Wechat/View/Public/static/images/big_class_.png',
         text: '大咖讲堂',
-        href: '/test/2'
+        href: 'video/course_class'
       }, {
         src: 'https://m.hrpindao.com/Application/Wechat/View/Public/static/images/train_icon@3x.png',
         text: '系列好课',
-        href: 'https://m.hrpindao.com/TrainCamp/index.html'
+        href: 'trainCamp/index'
       }, {
         src: 'https://m.hrpindao.com/Application/Wechat/View/Public/static/images/benchmark.png',
         text: '走进标杆',
-        href: 'https://m.hrpindao.com/Lecturer/benchmark/a/2.html'
+        href: 'lecturer/benchmark'
       }, {
         src: 'https://m.hrpindao.com/Application/Wechat/View/Public/static/images/ai0313.png',
         text: '内训定制',
-        href: 'https://m.hrpindao.com/Lecturer/class_list/a/1.html'
+        href: 'lecturer/class_list'
       }],
       liveClass: [{
-        href: 'https://m.hrpindao.com/Activity/liveDetail/id/385.html',
+        id: 1,
         src: 'https://m.hrpindao.com/Public/upload/activity/5d2d3bd10cbd9.jpg',
         title: 'HR如何利用思维导图提高工作效率？',
         postion: '陈资璧 | 亚洲首位获得博赞认证的华人女导师',
         time: '07-18 20:00'
       }, {
-        href: 'https://m.hrpindao.com/Activity/liveDetail/id/385.html',
+        id: 1,
         src: 'https://m.hrpindao.com/Public/upload/activity/5d2d3bd10cbd9.jpg',
         title: 'HR如何利用思维导图提高工作效率？',
         postion: '陈资璧 | 亚洲首位获得博赞认证的华人女导师',
         time: '07-18 20:00'
       }],
       vipClass: [{
-        href: 'https://m.hrpindao.com/wechat.php?c=Video&a=video&id=257&node_id=0',
+        id: 1,
+        node_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/course_img/5c88ca110eec4.jpg',
         title: '京东人才梯队建设',
         postion: '纪冬妮 | 人才发展部负责人',
         price: '26.9'
       }, {
-        href: 'https://m.hrpindao.com/wechat.php?c=Video&a=video&id=257&node_id=0',
+        id: 1,
+        node_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/course_img/5c88ca110eec4.jpg',
         title: '京东人才梯队建设',
         postion: '纪冬妮 | 人才发展部负责人',
         price: '26.9'
       }],
       bestClass: [{
-        href: 'https://m.hrpindao.com/wechat.php?c=Exam&a=index&pid=109',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/train_camp/5d3581f64bff9.jpg',
         num: 3,
         price: 99.00
       }, {
-        href: 'https://m.hrpindao.com/wechat.php?c=Exam&a=index&pid=109',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/train_camp/5d3581f64bff9.jpg',
         num: 3,
         price: 99.00
       }, {
-        href: 'https://m.hrpindao.com/wechat.php?c=Exam&a=index&pid=109',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/train_camp/5d3581f64bff9.jpg',
         num: 3,
         price: 99.00
       }, {
-        href: 'https://m.hrpindao.com/wechat.php?c=Exam&a=index&pid=109',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/train_camp/5d3581f64bff9.jpg',
         num: 3,
         price: 99.00
       }],
       teachers: [{
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/details/id/44/c/1.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5c8b7ffa2ca8e.jpg',
         "class": '人力资源专家',
         name: '张老师'
       }],
       biaogan: [{
-        href: 'https://m.hrpindao.com/Lecturer/tourDetail/id/18/c/2.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5cd3fb5e850fc.jpg',
         title: '阿里巴巴',
         content: '寻根源 理思维 观大势 找方法',
         addTime: '地点：杭州 | 时间：7月29-30日',
         num: 1
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/tourDetail/id/18/c/2.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5cd3fb5e850fc.jpg',
         title: '阿里巴巴',
         content: '寻根源 理思维 观大势 找方法',
         addTime: '地点：杭州 | 时间：7月29-30日',
         num: 2
       }, {
-        href: 'https://m.hrpindao.com/Lecturer/tourDetail/id/18/c/2.html',
+        pid: 1,
         src: 'https://m.hrpindao.com/Public/upload/lecturer/5cd3fb5e850fc.jpg',
         title: '阿里巴巴',
         content: '寻根源 理思维 观大势 找方法',
@@ -682,39 +691,41 @@ __webpack_require__.r(__webpack_exports__);
         num: 3
       }],
       scoreShop: [{
-        href: '',
+        id: 1,
         src: 'https://m.hrpindao.com/Public/upload/goods_img/5c0f1fe2228de.jpg',
         title: '华为人力资源管理',
         num: 32
       }, {
-        href: '',
+        id: 1,
         src: 'https://m.hrpindao.com/Public/upload/goods_img/5c0f1fe2228de.jpg',
         title: '华为人力资源管理',
         num: 345
       }],
       means: [{
-        href: '',
+        class_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',
         title: '员工招聘',
         classify: '绩效'
       }, {
-        href: '',
+        class_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',
         title: '员工招聘',
         classify: '绩效'
       }, {
-        href: '',
+        class_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',
         title: '员工招聘',
         classify: '绩效'
       }, {
-        href: '',
+        class_id: 1,
         src: 'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',
         title: '员工招聘',
         classify: '绩效'
       }],
       article: {
-        title: '硬核HR们都在谈论的OD到底是什么？'
+        title: '硬核HR们都在谈论的OD到底是什么？',
+        id: 1,
+        uid: 170038
       }
     };
   },
@@ -29656,9 +29667,16 @@ var render = function() {
     { attrs: { options: _vm.RotaryPlantingMap, id: "RotaryPlantingMap" } },
     [
       _vm._l(_vm.imglist, function(item, index) {
-        return _c("swiper-slide", { key: index }, [
-          _c("img", { attrs: { src: item } })
-        ])
+        return _c(
+          "swiper-slide",
+          { key: index },
+          [
+            _c("router-link", { attrs: { to: { path: item.href } } }, [
+              _c("img", { attrs: { src: item.src } })
+            ])
+          ],
+          1
+        )
       }),
       _vm._v(" "),
       _c("div", {
@@ -29774,7 +29792,7 @@ var render = function() {
         return _c(
           "li",
           [
-            _c("router-link", { attrs: { to: item.href } }, [
+            _c("router-link", { attrs: { to: { path: item.href } } }, [
               _c("img", { attrs: { src: item.src } }),
               _vm._v(" "),
               _c("p", [_vm._v(_vm._s(item.text))])
@@ -29809,30 +29827,34 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("a", { attrs: { href: _vm.href } }, [
-      _c(
-        "div",
-        {
-          staticClass: "c-public-leader",
-          staticStyle: { "text-align": "left" }
-        },
-        [
-          _c("img", {
-            staticClass: "c-public-leader-img1",
-            attrs: { src: "/images/home_title_img@3x.png" }
-          }),
-          _vm._v(" "),
-          _c("span", [_vm._v(_vm._s(_vm.text))]),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "c-public-more",
-            attrs: { src: "/images/More@3x.png" }
-          })
-        ]
-      )
-    ])
-  ])
+  return _c(
+    "div",
+    [
+      _c("router-link", { attrs: { to: { path: _vm.href } } }, [
+        _c(
+          "div",
+          {
+            staticClass: "c-public-leader",
+            staticStyle: { "text-align": "left" }
+          },
+          [
+            _c("img", {
+              staticClass: "c-public-leader-img1",
+              attrs: { src: "/images/home_title_img@3x.png" }
+            }),
+            _vm._v(" "),
+            _c("span", [_vm._v(_vm._s(_vm.text))]),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "c-public-more",
+              attrs: { src: "/images/More@3x.png" }
+            })
+          ]
+        )
+      ])
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -29943,25 +29965,95 @@ var render = function() {
   return _c(
     "div",
     [
-      _vm._m(0),
+      _c(
+        "header",
+        {
+          staticStyle: { "font-size": "16px" },
+          attrs: { id: "c-public-search" }
+        },
+        [
+          _c("router-link", { attrs: { to: { path: "search/search" } } }, [
+            _c(
+              "div",
+              {
+                staticStyle: {
+                  background: "#fff",
+                  width: "50%",
+                  float: "left",
+                  "margin-left": "4%",
+                  height: "1.7em",
+                  "line-height": "1.5em"
+                }
+              },
+              [
+                _c("img", {
+                  attrs: {
+                    src:
+                      "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/search@3x.png"
+                  }
+                }),
+                _vm._v(" "),
+                _c("span", [_vm._v("搜索")])
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticStyle: { width: "42%" }, attrs: { id: "si0308" } },
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { path: "index/setSendMessage" } } },
+                [
+                  _c("p", { staticStyle: { width: "46%" } }, [
+                    _c("img", {
+                      attrs: {
+                        src:
+                          "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/index030802.png"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("订阅")])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: { path: "signIn/first" } } }, [
+                _c(
+                  "p",
+                  { staticStyle: { "margin-left": "2%", width: "51%" } },
+                  [
+                    _c("img", {
+                      attrs: {
+                        src:
+                          "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/S-042501.png"
+                      }
+                    }),
+                    _vm._v(" "),
+                    _c("span", [_vm._v("签到学习")])
+                  ]
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
       _vm._v(" "),
       _c("carousel", { attrs: { imglist: _vm.imglist } }),
       _vm._v(" "),
       _c("icon", { attrs: { icon: _vm.icons } }),
       _vm._v(" "),
-      _vm._m(1),
-      _vm._v(" "),
-      _vm._m(2),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "div",
         { attrs: { id: "c-index-live" } },
         [
           _c("Leaders", {
-            attrs: {
-              href: "https://m.hrpindao.com/Activity/newList.html",
-              text: "大咖讲堂"
-            }
+            attrs: { href: "activity/newList", text: "大咖讲堂" }
           }),
           _vm._v(" "),
           _c("div", { staticClass: "swiper-container c-live" }, [
@@ -29992,39 +30084,51 @@ var render = function() {
                             }
                           },
                           [
-                            _c("a", { attrs: { href: item.href } }, [
-                              _c("div", { staticClass: "live_left" }, [
-                                _c("img", {
-                                  staticStyle: {
-                                    height: "100%",
-                                    width: "100%"
-                                  },
-                                  attrs: { src: item.src }
-                                }),
+                            _c(
+                              "router-link",
+                              {
+                                attrs: {
+                                  to: {
+                                    path: "activity/liveDetail",
+                                    query: { id: item.id }
+                                  }
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "live_left" }, [
+                                  _c("img", {
+                                    staticStyle: {
+                                      height: "100%",
+                                      width: "100%"
+                                    },
+                                    attrs: { src: item.src }
+                                  }),
+                                  _vm._v(" "),
+                                  _c("p", [_vm._v(_vm._s(item.num) + "人报名")])
+                                ]),
                                 _vm._v(" "),
-                                _c("p", [_vm._v(_vm._s(item.num) + "人报名")])
-                              ]),
-                              _vm._v(" "),
-                              _c(
-                                "div",
-                                {
-                                  staticClass: "live_right ai0313",
-                                  staticStyle: { width: "73%" }
-                                },
-                                [
-                                  _c("p", [_vm._v(_vm._s(item.title))]),
-                                  _vm._v(" "),
-                                  _c("dd", [_vm._v(_vm._s(item.postion))]),
-                                  _vm._v(" "),
-                                  _c("div", [
-                                    _vm._v(_vm._s(item.time) + "直播")
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("span", [_vm._v("限时免费")])
-                                ]
-                              )
-                            ])
-                          ]
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "live_right ai0313",
+                                    staticStyle: { width: "73%" }
+                                  },
+                                  [
+                                    _c("p", [_vm._v(_vm._s(item.title))]),
+                                    _vm._v(" "),
+                                    _c("dd", [_vm._v(_vm._s(item.postion))]),
+                                    _vm._v(" "),
+                                    _c("div", [
+                                      _vm._v(_vm._s(item.time) + "直播")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("span", [_vm._v("限时免费")])
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
                         )
                       }),
                       0
@@ -30047,14 +30151,114 @@ var render = function() {
                             }
                           },
                           [
-                            _c("a", { attrs: { href: item.href } }, [
+                            _c(
+                              "router-link",
+                              {
+                                attrs: {
+                                  to: {
+                                    path: "video/video",
+                                    query: {
+                                      node_id: item.node_id,
+                                      id: item.id
+                                    }
+                                  }
+                                }
+                              },
+                              [
+                                _c("div", { staticClass: "live_left" }, [
+                                  _c("img", {
+                                    staticStyle: {
+                                      height: "100%",
+                                      width: "100%"
+                                    },
+                                    attrs: { src: item.src }
+                                  })
+                                ]),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "live_right ai0313",
+                                    staticStyle: { width: "72%" }
+                                  },
+                                  [
+                                    _c("p", [_vm._v(_vm._s(item.title))]),
+                                    _vm._v(" "),
+                                    _c("dd", [_vm._v(_vm._s(item.postion))]),
+                                    _vm._v(" "),
+                                    _c(
+                                      "div",
+                                      {
+                                        staticStyle: {
+                                          color: "#909399",
+                                          "font-size": "0.9em"
+                                        }
+                                      },
+                                      [
+                                        _c("s", [
+                                          _vm._v("￥" + _vm._s(item.price))
+                                        ]),
+                                        _vm._v(" "),
+                                        _c(
+                                          "b",
+                                          {
+                                            staticStyle: {
+                                              color: "#FF7F1D",
+                                              "margin-left": ".5em"
+                                            }
+                                          },
+                                          [_vm._v("VIP免费")]
+                                        )
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ],
+                          1
+                        )
+                      }),
+                      0
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "swiper-slide" }, [
+                  _c(
+                    "ul",
+                    { staticClass: "newLive" },
+                    _vm._l(_vm.vipClass, function(item) {
+                      return _c(
+                        "li",
+                        {
+                          staticStyle: {
+                            "padding-bottom": ".7em",
+                            overflow: "hidden"
+                          }
+                        },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              attrs: {
+                                to: {
+                                  path: "video/video",
+                                  query: { node_id: item.node_id, id: item.id }
+                                }
+                              }
+                            },
+                            [
                               _c("div", { staticClass: "live_left" }, [
                                 _c("img", {
                                   staticStyle: {
                                     height: "100%",
                                     width: "100%"
                                   },
-                                  attrs: { src: item.src }
+                                  attrs: {
+                                    src:
+                                      "https://m.hrpindao.com/Public/upload/course_img/5c88ca6d80876.jpg"
+                                  }
                                 })
                               ]),
                               _vm._v(" "),
@@ -30065,9 +30269,11 @@ var render = function() {
                                   staticStyle: { width: "72%" }
                                 },
                                 [
-                                  _c("p", [_vm._v(_vm._s(item.title))]),
+                                  _c("p", [_vm._v("华为HRBP实操案例分享")]),
                                   _vm._v(" "),
-                                  _c("dd", [_vm._v(_vm._s(item.postion))]),
+                                  _c("dd", [
+                                    _vm._v("刘冰 | 干部与人才管理专家")
+                                  ]),
                                   _vm._v(" "),
                                   _c(
                                     "div",
@@ -30078,9 +30284,7 @@ var render = function() {
                                       }
                                     },
                                     [
-                                      _c("s", [
-                                        _vm._v("￥" + _vm._s(item.price))
-                                      ]),
+                                      _c("s", [_vm._v("￥26.9")]),
                                       _vm._v(" "),
                                       _c(
                                         "b",
@@ -30096,16 +30300,15 @@ var render = function() {
                                   )
                                 ]
                               )
-                            ])
-                          ]
-                        )
-                      }),
-                      0
-                    )
-                  ])
-                ]),
-                _vm._v(" "),
-                _vm._m(3)
+                            ]
+                          )
+                        ],
+                        1
+                      )
+                    }),
+                    0
+                  )
+                ])
               ]
             )
           ])
@@ -30118,10 +30321,7 @@ var render = function() {
         { attrs: { id: "c-index-class" } },
         [
           _c("Leaders", {
-            attrs: {
-              href: "https://m.hrpindao.com/TrainCamp/index.html",
-              text: "精品课程"
-            }
+            attrs: { href: "trainCamp/index", text: "精品课程" }
           }),
           _vm._v(" "),
           _c(
@@ -30135,46 +30335,86 @@ var render = function() {
                 "div",
                 { staticClass: "swiper-wrapper" },
                 [
-                  _vm._m(4),
+                  _c(
+                    "div",
+                    { staticClass: "swiper-slide c-sm" },
+                    [
+                      _c(
+                        "router-link",
+                        { attrs: { to: { path: "member/buy" } } },
+                        [
+                          _c("img", {
+                            staticStyle: { width: "100%" },
+                            attrs: {
+                              src:
+                                "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/c-vip.jpg?time=20180827"
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("p", [_vm._v("200节微课免费畅听")])
+                        ]
+                      )
+                    ],
+                    1
+                  ),
                   _vm._v(" "),
                   _vm._l(_vm.bestClass, function(item) {
-                    return _c("div", { staticClass: "swiper-slide c-sm" }, [
-                      _c("a", { attrs: { href: item.href } }, [
-                        _c("img", {
-                          staticStyle: { width: "100%" },
-                          attrs: { src: item.src }
-                        }),
-                        _vm._v(" "),
-                        _c("p", [
-                          _c(
-                            "em",
-                            {
-                              staticStyle: {
-                                color: "#909399",
-                                "font-size": ".8em"
+                    return _c(
+                      "div",
+                      { staticClass: "swiper-slide c-sm" },
+                      [
+                        _c(
+                          "router-link",
+                          {
+                            attrs: {
+                              to: {
+                                path: "exam/index",
+                                query: { pid: item.pid }
                               }
-                            },
-                            [_vm._v(_vm._s(item.num) + "人次学习")]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "span",
-                            {
-                              staticStyle: { color: "#FF7F1D", float: "right" }
-                            },
-                            [_vm._v("￥" + _vm._s(item.price))]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("img", {
-                          staticClass: "swiper-slide-jp",
-                          attrs: {
-                            src:
-                              "__PUBLIC__/upload/train_camp/{$v.index_label_img}"
-                          }
-                        })
-                      ])
-                    ])
+                            }
+                          },
+                          [
+                            _c("img", {
+                              staticStyle: { width: "100%" },
+                              attrs: { src: item.src }
+                            }),
+                            _vm._v(" "),
+                            _c("p", [
+                              _c(
+                                "em",
+                                {
+                                  staticStyle: {
+                                    color: "#909399",
+                                    "font-size": ".8em"
+                                  }
+                                },
+                                [_vm._v(_vm._s(item.num) + "人次学习")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "span",
+                                {
+                                  staticStyle: {
+                                    color: "#FF7F1D",
+                                    float: "right"
+                                  }
+                                },
+                                [_vm._v("￥" + _vm._s(item.price))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("img", {
+                              staticClass: "swiper-slide-jp",
+                              attrs: {
+                                src:
+                                  "__PUBLIC__/upload/train_camp/{$v.index_label_img}"
+                              }
+                            })
+                          ]
+                        )
+                      ],
+                      1
+                    )
                   })
                 ],
                 2
@@ -30190,10 +30430,7 @@ var render = function() {
         { attrs: { id: "c-index-class" } },
         [
           _c("Leaders", {
-            attrs: {
-              text: "推荐讲师",
-              href: "https://m.hrpindao.com/Lecturer/class_list/b/1.html"
-            }
+            attrs: { text: "推荐讲师", href: "lecturer/class_list" }
           }),
           _vm._v(" "),
           _c(
@@ -30210,29 +30447,45 @@ var render = function() {
                   staticStyle: { "padding-left": "0" }
                 },
                 _vm._l(_vm.teachers, function(item) {
-                  return _c("div", { staticClass: "swiper-slide" }, [
-                    _c("a", { attrs: { href: item.href } }, [
+                  return _c(
+                    "div",
+                    { staticClass: "swiper-slide" },
+                    [
                       _c(
-                        "div",
+                        "router-link",
                         {
-                          staticClass: "c-lecturer-userhead",
-                          staticStyle: { "border-radius": ".5em" }
+                          attrs: {
+                            to: {
+                              path: "lecturer/details",
+                              query: { id: item.pid }
+                            }
+                          }
                         },
                         [
-                          _c("img", {
-                            staticStyle: { height: "auto" },
-                            attrs: { src: item.src }
-                          }),
+                          _c(
+                            "div",
+                            {
+                              staticClass: "c-lecturer-userhead",
+                              staticStyle: { "border-radius": ".5em" }
+                            },
+                            [
+                              _c("img", {
+                                staticStyle: { height: "auto" },
+                                attrs: { src: item.src }
+                              }),
+                              _vm._v(" "),
+                              _c("p", [_vm._v(_vm._s(item.class))])
+                            ]
+                          ),
                           _vm._v(" "),
-                          _c("p", [_vm._v(_vm._s(item.class))])
+                          _c("p", { staticClass: "c-lecturer-name" }, [
+                            _vm._v(_vm._s(item.name))
+                          ])
                         ]
-                      ),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "c-lecturer-name" }, [
-                        _vm._v(_vm._s(item.name))
-                      ])
-                    ])
-                  ])
+                      )
+                    ],
+                    1
+                  )
                 }),
                 0
               )
@@ -30242,79 +30495,96 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _vm._m(5),
+      _vm._m(1),
       _vm._v(" "),
       _c(
         "div",
         { staticStyle: { clear: "both" }, attrs: { id: "c-index-zhaopin" } },
         [
           _c("Leaders", {
-            attrs: {
-              text: "走进标杆",
-              href: "https://m.hrpindao.com/Lecturer/benchmark/b/2.html"
-            }
+            attrs: { text: "走进标杆", href: "lecturer/benchmark" }
           }),
           _vm._v(" "),
           _c(
             "ul",
             _vm._l(_vm.biaogan, function(item) {
-              return _c("li", [
-                _c("a", { attrs: { href: item.href } }, [
-                  _c("div", { staticClass: "c-index-zhaopin-div1" }, [
-                    _c("img", {
-                      staticClass: "c-index-zhaopin-img1",
-                      attrs: { src: item.src }
-                    })
-                  ]),
-                  _vm._v(" "),
+              return _c(
+                "li",
+                [
                   _c(
-                    "div",
+                    "router-link",
                     {
-                      staticClass: "c-index-zhaopin-div2",
-                      staticStyle: { position: "relative", height: "4.1875em" }
+                      attrs: {
+                        to: {
+                          path: "lecturer/tourDetail",
+                          query: { id: item.pid }
+                        }
+                      }
                     },
                     [
-                      _c("h3", [
-                        _vm._v(
-                          "\n                " +
-                            _vm._s(item.title) +
-                            "\n                "
-                        ),
-                        _vm._v(" "),
-                        item.num > 0
-                          ? _c("span", { staticClass: "num0322" }, [
-                              _vm._v("剩余名额:" + _vm._s(item.num) + "人")
-                            ])
-                          : _vm._e()
+                      _c("div", { staticClass: "c-index-zhaopin-div1" }, [
+                        _c("img", {
+                          staticClass: "c-index-zhaopin-img1",
+                          attrs: { src: item.src }
+                        })
                       ]),
                       _vm._v(" "),
                       _c(
-                        "dd",
-                        { staticClass: "c-public-rightDiv-namePosition" },
+                        "div",
+                        {
+                          staticClass: "c-index-zhaopin-div2",
+                          staticStyle: {
+                            position: "relative",
+                            height: "4.1875em"
+                          }
+                        },
                         [
+                          _c("h3", [
+                            _vm._v(
+                              "\n                " +
+                                _vm._s(item.title) +
+                                "\n                "
+                            ),
+                            _vm._v(" "),
+                            item.num > 0
+                              ? _c("span", { staticClass: "num0322" }, [
+                                  _vm._v("剩余名额:" + _vm._s(item.num) + "人")
+                                ])
+                              : _vm._e()
+                          ]),
+                          _vm._v(" "),
                           _c(
-                            "em",
+                            "dd",
+                            { staticClass: "c-public-rightDiv-namePosition" },
+                            [
+                              _c(
+                                "em",
+                                {
+                                  staticStyle: {
+                                    width: "100%",
+                                    "line-height": "normal",
+                                    "font-size": ".85em"
+                                  }
+                                },
+                                [_vm._v(_vm._s(item.content))]
+                              )
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "p",
                             {
-                              staticStyle: {
-                                width: "100%",
-                                "line-height": "normal",
-                                "font-size": ".85em"
-                              }
+                              staticStyle: { position: "absolute", bottom: "0" }
                             },
-                            [_vm._v(_vm._s(item.content))]
+                            [_vm._v(_vm._s(item.addTime))]
                           )
                         ]
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "p",
-                        { staticStyle: { position: "absolute", bottom: "0" } },
-                        [_vm._v(_vm._s(item.addTime))]
                       )
                     ]
                   )
-                ])
-              ])
+                ],
+                1
+              )
             }),
             0
           )
@@ -30326,76 +30596,85 @@ var render = function() {
         "div",
         { attrs: { id: "c-index-everyday" } },
         [
-          _c("Leaders", {
-            attrs: {
-              text: "好文阅读",
-              href: "https://m.hrpindao.com/File/dern.html"
-            }
-          }),
+          _c("Leaders", { attrs: { text: "好文阅读", href: "file/dern" } }),
           _vm._v(" "),
-          _c("ul", [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "{:U('File/article_con',array('id'=>$new_article['id'],'uid'=>$new_article['uid']))}"
-                }
-              },
-              [
-                _c(
-                  "li",
-                  {
-                    staticStyle: {
-                      padding: "0.6875em 1.25em",
-                      overflow: "hidden",
-                      "padding-top": "0px"
+          _c(
+            "ul",
+            [
+              _c(
+                "router-link",
+                {
+                  attrs: {
+                    to: {
+                      path: "file/article_con",
+                      query: { id: _vm.article.id, uid: _vm.article.uid }
                     }
-                  },
-                  [
-                    _vm._m(6),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "c-index-zhaopin-div2 A-0326",
-                        staticStyle: {
-                          height: "4.1875em",
-                          position: "relative"
-                        }
-                      },
-                      [
-                        _c(
-                          "h3",
-                          {
-                            staticStyle: {
-                              float: "left",
-                              "margin-top": "0.5em",
-                              "font-size": ".965em"
-                            },
-                            attrs: { id: "everyday" }
-                          },
-                          [_vm._v(_vm._s(_vm.article.title))]
-                        ),
-                        _vm._v(" "),
-                        _c("p", { staticStyle: { clear: "both" } }),
-                        _vm._v(" "),
-                        _c("dd", {
-                          staticClass: "c-public-rightDiv-namePosition",
-                          staticStyle: {
-                            position: "absolute",
-                            bottom: "10px",
-                            left: "0px",
-                            "font-size": ".8em"
+                  }
+                },
+                [
+                  _c(
+                    "li",
+                    {
+                      staticStyle: {
+                        padding: "0.6875em 1.25em",
+                        overflow: "hidden",
+                        "padding-top": "0px"
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "c-index-zhaopin-div1" }, [
+                        _c("img", {
+                          staticClass: "c-index-zhaopin-img1",
+                          attrs: {
+                            src:
+                              "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/goodRead.png"
                           }
                         })
-                      ]
-                    )
-                  ]
-                )
-              ]
-            )
-          ])
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "c-index-zhaopin-div2 A-0326",
+                          staticStyle: {
+                            height: "4.1875em",
+                            position: "relative"
+                          }
+                        },
+                        [
+                          _c(
+                            "h3",
+                            {
+                              staticStyle: {
+                                float: "left",
+                                "margin-top": "0.5em",
+                                "font-size": ".965em"
+                              },
+                              attrs: { id: "everyday" }
+                            },
+                            [_vm._v(_vm._s(_vm.article.title))]
+                          ),
+                          _vm._v(" "),
+                          _c("p", { staticStyle: { clear: "both" } }),
+                          _vm._v(" "),
+                          _c("dd", {
+                            staticClass: "c-public-rightDiv-namePosition",
+                            staticStyle: {
+                              position: "absolute",
+                              bottom: "10px",
+                              left: "0px",
+                              "font-size": ".8em"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ]
+              )
+            ],
+            1
+          )
         ],
         1
       ),
@@ -30405,10 +30684,7 @@ var render = function() {
         { attrs: { id: "c-index-shop" } },
         [
           _c("Leaders", {
-            attrs: {
-              href: "https://m.hrpindao.com/Scoreshop/index.html",
-              text: "积分商城"
-            }
+            attrs: { href: "scoreshop/index", text: "积分商城" }
           }),
           _vm._v(" "),
           _c(
@@ -30423,20 +30699,31 @@ var render = function() {
             [
               _vm._l(_vm.scoreShop, function(item) {
                 return [
-                  _c("a", { attrs: { href: item.href } }, [
-                    _c("div", { staticClass: "c-index-live-col" }, [
-                      _c("img", { attrs: { src: item.src } }),
-                      _vm._v(" "),
-                      _c("p", { staticStyle: { "margin-top": "4px" } }, [
-                        _vm._v(_vm._s(item.title))
-                      ]),
-                      _vm._v(" "),
-                      _c("dd", [
-                        _c("span", [_vm._v(_vm._s(item.num))]),
-                        _c("em", [_vm._v("积分")])
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          path: "scoreshop/shop_detail",
+                          query: { id: item.id }
+                        }
+                      }
+                    },
+                    [
+                      _c("div", { staticClass: "c-index-live-col" }, [
+                        _c("img", { attrs: { src: item.src } }),
+                        _vm._v(" "),
+                        _c("p", { staticStyle: { "margin-top": "4px" } }, [
+                          _vm._v(_vm._s(item.title))
+                        ]),
+                        _vm._v(" "),
+                        _c("dd", [
+                          _c("span", [_vm._v(_vm._s(item.num))]),
+                          _c("em", [_vm._v("积分")])
+                        ])
                       ])
-                    ])
-                  ])
+                    ]
+                  )
                 ]
               })
             ],
@@ -30451,26 +30738,38 @@ var render = function() {
         { attrs: { id: "c-index-library" } },
         [
           _c("Leaders", {
-            attrs: {
-              text: "资料库",
-              href: "https://m.hrpindao.com/FileLibrary/index.html?down"
-            }
+            attrs: { text: "资料库", href: "fileLibrary/index" }
           }),
           _vm._v(" "),
           _c(
             "ul",
             _vm._l(_vm.means, function(item) {
-              return _c("li", [
-                _c("a", { attrs: { href: item.href } }, [
-                  _c("img", { attrs: { src: item.src } }),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c("h3", [_vm._v(_vm._s(item.title))]),
-                    _vm._v(" "),
-                    _c("p", [_vm._v(_vm._s(item.classify))])
-                  ])
-                ])
-              ])
+              return _c(
+                "li",
+                [
+                  _c(
+                    "router-link",
+                    {
+                      attrs: {
+                        to: {
+                          path: "fileLibrary/index",
+                          query: { class_id: item.class_id }
+                        }
+                      }
+                    },
+                    [
+                      _c("img", { attrs: { src: item.src } }),
+                      _vm._v(" "),
+                      _c("div", [
+                        _c("h3", [_vm._v(_vm._s(item.title))]),
+                        _vm._v(" "),
+                        _c("p", [_vm._v(_vm._s(item.classify))])
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
             }),
             0
           )
@@ -30484,92 +30783,6 @@ var render = function() {
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "header",
-      {
-        staticStyle: { "font-size": "16px" },
-        attrs: { id: "c-public-search" }
-      },
-      [
-        _c("a", { attrs: { href: "{:U('Search/search')}" } }, [
-          _c(
-            "div",
-            {
-              staticStyle: {
-                background: "#fff",
-                width: "50%",
-                float: "left",
-                "margin-left": "4%",
-                height: "1.7em",
-                "line-height": "1.5em"
-              }
-            },
-            [
-              _c("img", {
-                attrs: {
-                  src:
-                    "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/search@3x.png"
-                }
-              }),
-              _vm._v(" "),
-              _c("span", [_vm._v("搜索")])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticStyle: { width: "42%" }, attrs: { id: "si0308" } }, [
-          _c("a", { attrs: { href: "{:U('Index/setSendMessage')}" } }, [
-            _c("p", { staticStyle: { width: "46%" } }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/index030802.png"
-                }
-              }),
-              _vm._v(" "),
-              _c("span", [_vm._v("订阅")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("a", { attrs: { href: "{:U('SignIn/first')}" } }, [
-            _c("p", { staticStyle: { "margin-left": "2%", width: "51%" } }, [
-              _c("img", {
-                attrs: {
-                  src:
-                    "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/S-042501.png"
-                }
-              }),
-              _vm._v(" "),
-              _c("span", [_vm._v("签到学习")])
-            ])
-          ])
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "c-index-dy" } }, [
-      _c("div", [
-        _c("img", {
-          attrs: {
-            src:
-              "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/sourceicon@3x.png"
-          }
-        }),
-        _vm._v(" "),
-        _c("p", [_vm._v("订阅就送价值29元大咖微课一节！")]),
-        _vm._v(" "),
-        _c("button", { staticClass: "c-index-dy-btn" }, [_vm._v("立即订阅")])
-      ])
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -30601,93 +30814,6 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "swiper-slide" }, [
-      _c("ul", { staticClass: "newLive" }, [
-        _c(
-          "li",
-          { staticStyle: { "padding-bottom": ".7em", overflow: "hidden" } },
-          [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "__APP__/wechat.php?c=Video&a=video&id={$v['id']}&node_id=0"
-                }
-              },
-              [
-                _c("div", { staticClass: "live_left" }, [
-                  _c("img", {
-                    staticStyle: { height: "100%", width: "100%" },
-                    attrs: {
-                      src:
-                        "https://m.hrpindao.com/Public/upload/course_img/5c88ca6d80876.jpg"
-                    }
-                  })
-                ]),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "live_right ai0313",
-                    staticStyle: { width: "72%" }
-                  },
-                  [
-                    _c("p", [_vm._v("华为HRBP实操案例分享")]),
-                    _vm._v(" "),
-                    _c("dd", [_vm._v("刘冰 | 干部与人才管理专家")]),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticStyle: { color: "#909399", "font-size": "0.9em" }
-                      },
-                      [
-                        _c("s", [_vm._v("￥26.9")]),
-                        _vm._v(" "),
-                        _c(
-                          "b",
-                          {
-                            staticStyle: {
-                              color: "#FF7F1D",
-                              "margin-left": ".5em"
-                            }
-                          },
-                          [_vm._v("VIP免费")]
-                        )
-                      ]
-                    )
-                  ]
-                )
-              ]
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "swiper-slide c-sm" }, [
-      _c("a", { attrs: { href: "{:U('Member/buy')}" } }, [
-        _c("img", {
-          staticStyle: { width: "100%" },
-          attrs: {
-            src:
-              "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/c-vip.jpg?time=20180827"
-          }
-        }),
-        _vm._v(" "),
-        _c("p", [_vm._v("200节微课免费畅听")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c(
       "a",
       { attrs: { href: "https://mp.weixin.qq.com/s/zxltvqNIz8gKQJQVNZC5_w" } },
@@ -30707,20 +30833,6 @@ var staticRenderFns = [
         ])
       ]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "c-index-zhaopin-div1" }, [
-      _c("img", {
-        staticClass: "c-index-zhaopin-img1",
-        attrs: {
-          src:
-            "https://m.hrpindao.com/Application/Wechat/View/Public/static/images/goodRead.png"
-        }
-      })
-    ])
   }
 ]
 render._withStripped = true

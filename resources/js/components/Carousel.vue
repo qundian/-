@@ -1,7 +1,9 @@
 <template>
   <swiper :options="RotaryPlantingMap" id='RotaryPlantingMap'>
     <swiper-slide v-for="(item,index) in imglist" :key='index'>
-      <img :src="item"/>
+        <router-link :to='{path:item.href}'>
+            <img :src="item.src"/>
+        </router-link>
     </swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
 　</swiper>
