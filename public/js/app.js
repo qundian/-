@@ -147,11 +147,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
+    console.log(this.user);
     return {
-      id: 66,
-      msg: ''
+      ruleForm: {
+        name: this.user.name,
+        email: this.user.age
+      }
     };
   },
+  // data(){
+  // 	return {
+  // 		id: 66,
+  // 		msg: ''
+  // 	}
+  // },
   mounted: function mounted() {
     this.msg = '/view/test/' + this.id;
   }
@@ -29716,7 +29725,7 @@ var render = function() {
         "li",
         [
           _c("router-link", { attrs: { to: { path: "/classify" } } }, [
-            _vm._v("分类123")
+            _vm._v("分类")
           ])
         ],
         1

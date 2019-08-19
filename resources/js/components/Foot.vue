@@ -1,7 +1,7 @@
 <template>
 	<div class="foot">
 		<ul>
-			<li><router-link :to="{path:'/classify'}">分类123</router-link></li>
+			<li><router-link :to="{path:'/classify'}">分类</router-link></li>
 			<li><router-link :to="{path:'/course_class'}">VIP专区</router-link></li>
 			<li><router-link :to="{path: '/'}">首页</router-link></li>
 			<li><router-link :to="{path:'/personal/record'}">学习数据</router-link></li>
@@ -12,12 +12,21 @@
 
 <script>
 	export default {
-		data(){
-			return {
-				id: 66,
-				msg: ''
-			}
-		},
+        data() {
+            console.log(this.user)
+            return {
+                ruleForm: {
+                    name: this.user.name,
+                    email: this.user.age
+                },
+            };
+        },
+		// data(){
+		// 	return {
+		// 		id: 66,
+		// 		msg: ''
+		// 	}
+		// },
 		mounted: function(){
 			this.msg = '/view/test/'+this.id
 		}
