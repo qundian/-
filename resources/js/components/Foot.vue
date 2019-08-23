@@ -1,11 +1,11 @@
 <template>
 	<div class="foot">
 		<ul>
-			<li><router-link :to="{path:'/video/classify'}">分类123</router-link></li>
+			<li><router-link :to="{path:'/video/classify'}">分类</router-link></li>
 			<li><router-link :to="{path:'/video/course_class'}">VIP专区</router-link></li>
 			<li><router-link :to="{path: '/'}">首页</router-link></li>
 			<li><router-link :to="{path:'/personal/record'}">学习数据</router-link></li>
-			<li><router-link :to="{path: '/geren'}">我的</router-link></li>
+			<li><router-link :to="{path: '/index/geren'}">我的</router-link></li>
 		</ul>
 	</div>
 </template>

@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('index');
 });
 Route::get('{path}', function () {
-    return view('index');
+    return view('index',['name'=>'raohouhai','age'=>'18']);
 })->where('path', '(.*)');

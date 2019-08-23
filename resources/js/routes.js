@@ -10,7 +10,7 @@ export default new Router({
   mode: 'history',
   routes: [
     { path: '/', component: Index},
-	{ path: '/geren', component: Geren },
+	{ path: '/index/geren', component: Geren },
 	{ path: '/index/detail/:id', component: Detail }
   ]
 })
