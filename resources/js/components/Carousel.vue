@@ -28,8 +28,11 @@
 </script>
 
 <style>
-  #RotaryPlantingMap{margin-top: 3em;margin-bottom: .5em;height:10.75em;}
+  #RotaryPlantingMap{margin-top: 3em;margin-bottom: .5em;height:10.5em;}
   #RotaryPlantingMap img{width:100%;}
   #RotaryPlantingMap .swiper-wrapper{padding-left:0;}
   #RotaryPlantingMap .swiper-slide-next img,#RotaryPlantingMap .swiper-slide-prev img{height:80%;margin-top:5%;}
+  @media screen and (min-width:640px) {
+    #RotaryPlantingMap{height:auto;}
+  }
 </style>

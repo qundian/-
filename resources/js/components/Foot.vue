@@ -1,26 +1,25 @@
 <template>
 	<div class="foot">
 		<ul>
-			<li><router-link :to="{path:'/classify'}">分类123</router-link></li>
-			<li><router-link :to="{path:'/course_class'}">VIP专区</router-link></li>
+			<li><router-link :to="{path:'/video/classify'}">分类123</router-link></li>
+			<li><router-link :to="{path:'/video/course_class'}">VIP专区</router-link></li>
 			<li><router-link :to="{path: '/'}">首页</router-link></li>
 			<li><router-link :to="{path:'/personal/record'}">学习数据</router-link></li>
-			<li><router-link :to="{path: '/geren',query:{id:321}}">我的</router-link></li>
+			<li><router-link :to="{path: '/geren'}">我的</router-link></li>
 		</ul>
 	</div>
 </template>
 
 <script>
 	export default {
-		data(){
+		data (){
 			return {
-				id: 66,
-				msg: ''
+
 			}
 		},
-		mounted: function(){
-			this.msg = '/view/test/'+this.id
-		}
+		methods: {
+
+        }
 	}
 </script>
 
@@ -31,8 +30,8 @@
 		line-height:3em;
 		text-align: center;
 		width:100%;
-    background:#fff;
-    z-index:10;
+        background:#fff;
+        z-index:10;
 	}
 	.foot ul{
 		width:100%;

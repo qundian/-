@@ -219,18 +219,21 @@
       </ul>
     </div>
     <foot></foot>
+    <!-- 广告弹窗 -->
+    <ImgModel :imgModel='imgModel' :zIndex='21' v-if='show'></ImgModel>
   </div>
 </template>
 
 <script>
 	import $ from 'jquery'
 	import Public from '../../../public/js/public.js'
-	import Foot from '../Components/Foot.vue'
-	import Icon from '../Components/Icon.vue'
-	import Leaders from '../Components/Leaders.vue'
-	import Carousel from '../Components/Carousel.vue'
+	import Foot from '../components/foot.vue'
+	import Icon from '../components/icon.vue'
+	import Leaders from '../components/leaders.vue'
+	import Carousel from '../components/carousel.vue'
 	import Swiper from 'swiper';
 	import 'swiper/dist/css/swiper.min.css'
+    import ImgModel from '../components/imgModel.vue';
 
 	export default {
 		// 数据
@@ -286,7 +289,9 @@
 						{class_id:1,src:'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',title:'员工招聘',classify:'绩效'},
 						{class_id:1,src:'https://m.hrpindao.com/Public/upload/file/5b68072f1311d.png',title:'员工招聘',classify:'绩效'}
 					  ],
-				article: {title:'硬核HR们都在谈论的OD到底是什么？',id:1,uid:170038}
+				article: {title:'硬核HR们都在谈论的OD到底是什么？',id:1,uid:170038},
+                imgModel: {href:'',src:'https://m.hrpindao.com/Public/upload/ad/5d4c2b99490a8.jpg',ad_list_4:'1'},
+                show: false
 			}
 		},
 		// 实例创建前
@@ -334,7 +339,8 @@
 			Foot,
 			Leaders,
 			Icon,
-			Carousel
+			Carousel,
+            ImgModel
 		},
 			// 方法
 		methods: {

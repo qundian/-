@@ -1,0 +1,31 @@
+#c-mine-shezhi{position:absolute;top:1.2em;right:1.2em;z-index:1;width:1.375em}
+.c_geren_topLeft{float:none;margin:0 auto;position:absolute;top:1.2em;left:50%;z-index:10;width:4.5em;height:4.5em;border:none;border-radius:50%;margin-left:-2.25em;padding:.2em;border:1px solid #fff}
+#c-mine-pic{width:100%;height:100%;border-radius:50%}
+#c-mine-king{position:absolute;top:-.6em;left:0;z-index:1;width:1.25em}
+#c-mine-light{position:relative;width:7.625em;height:7.625em;top:-5px;left:50%;margin-left:-3.8125em;z-index:1}
+#c-mine-light_1{position:absolute;top:0;left:0;z-index:1;width:100%;height:100%;background:#fff;border-radius:50%;opacity:.1}
+#c-mine-light_2{position:absolute;top:50%;left:50%;z-index:1;width:6.25em;height:6.25em;background:#fff;border-radius:50%;opacity:.1;margin-left:-3.125em;margin-top:-3.125em}
+.c_geren_top{height:11em;padding-top:0;background:url(/images/bg@3x.png) no-repeat 0 0;background-size:100% 100%}
+.c_geren_topRight{margin:0;width:100%}
+#c-mine-name{text-align:center}
+#c-mine-name em{display:inline-block;vertical-align:middle;margin-right:.5em}
+#c-mine-name span{display:inline-block;background:#ff7f1d;font-size:.6em;padding:.1em .5em;border-radius:.3em;vertical-align:middle}
+#c-mine-col-2{padding:.9em 11px;background:#fff;overflow:hidden}
+#c-mine-col-2 li{float:left;width:49%;padding-left:.95em}
+#c-mine-col-2 li img{float:left;width:1.375em;margin-top:.6em;margin-right:.9em}
+#c-mine-col-2 li div{float:left}
+#c-mine-col-2 li p{font-size:1em}
+#c-mine-col-2 li span{font-size:.75em;color:#909399}
+#c-mine-col-2 li b{float:right;height:1.875em;border-left:1px solid #f2f2f2;margin-top:.3em}
+.personal_mian .personal_maozi{width:1.375em;height:1.375em}
+.upload-nav img{width:2.5em;height:2.5em;margin-top:.5em}
+.personal_mian h3{color:#000;font-size:1em;line-height:3em;float:left;margin-left:.6em}
+.personal_mian{width:100%;background-color:#fff;border-bottom:1px solid #f2f2f2;height:3em;overflow:hidden}
+.personal_mian .personal_maozi{width:1.5em;height:1.5em;float:left;margin-left:.8em;margin-top:.7em}
+.personal_mian .personal_hd{width:1.5em;height:1.5em;float:left;margin-left:.8em;margin-top:.7em}
+.personal_mian .personal_xing{width:1.5em;height:1.5em;float:left;margin-left:.9em;margin-top:.75em}
+.personal_mian .personal_xi{width:.56em;height:.93em;display:block;float:right;margin-right:.8em;margin-top:1em}
+.personal_mian:last-of-type{border-bottom:none}
+.personal_mian:first-of-type{border-bottom:1px solid #f2f2f2}
+.icon{width:1.3em!important;height:1.3em!important;float:none!important;vertical-align:middle;margin:0!important;margin-left:12px!important}
+.span{float:none!important;display:inline-block;vertical-align:middle}

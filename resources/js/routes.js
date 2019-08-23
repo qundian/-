@@ -11,7 +11,7 @@ export default new Router({
   routes: [
     { path: '/', component: Index},
 	{ path: '/geren', component: Geren },
-	{ path: '/detail/:id', component: Detail }
+	{ path: '/index/detail/:id', component: Detail }
   ]
 })
 // export default [

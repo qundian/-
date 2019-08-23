@@ -10,9 +10,9 @@
     <link href="{{ asset('css/rest.css')  }}" rel="stylesheet">
 </head>
 <body>
-<div id="app">
-    <router-view />
-</div>
-<script src="{{ asset('js/app.js') }}"></script>
+    <div id="app">
+        <router-view />
+    </div>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
